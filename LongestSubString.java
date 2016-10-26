@@ -1,31 +1,11 @@
-package com.util;
+package com.gygame.solu;
 
 /**
  * @author jun
  * 
- * Date：2016年10月26日 下午9:29:55
+ * Date：2016年10月26日 下午10:10:51
  */
 public class LongestSubString {
-	public static void main(String[] args) {
-		String s0 = "";
-		String s1 = "abcabcbb";
-		String s2 = "bbbb";
-		String s3 = "abcabcbbabcabcdbabcabcbbabcabcbb";
-		String s4 = "abcdeabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb"
-				+ "abcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbbabcabcbbabcabcdbabcabcbbabcabcbb";
-		System.out.println(lengthOfLongestSubString(s0));
-		System.out.println(lengthOfLongestSubString(s1));
-		System.out.println(lengthOfLongestSubString(s2));
-		System.out.println(lengthOfLongestSubString(s3));
-		System.out.println(lengthOfLongestSubString(s4));
-	}
 	
 	public static int lengthOfLongestSubString(String s){
 		int strLength = s.length();
